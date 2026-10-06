@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-06",
+  "tool": "Claude Code",
+  "summary": "Checks for this pass ran in headless Chromium 141 with the file opened from disk and networking disabled (tools/verify_design.cjs): the embedded self-test passed 15 of 15, 14 interaction checks passed, every visible text element met WCAG AA contrast at 1440 and 390 px with all disclosures open, and no page-wide horizontal overflow appeared from 320 to 1440 px. Screen-reader, Safari, Firefox and physical-device checks were not performed.",
+  "rows": [
+    {"status": "passed", "label": "Opens from disk, networking disabled", "value": "0 requests"},
+    {"status": "passed", "label": "Embedded self-test (DLMP_APP)", "value": "15 / 15"},
+    {"status": "passed", "label": "Filters, evidence links, scenarios, agenda, downloads, save and restore", "value": "14 / 14"},
+    {"status": "passed", "label": "Skip link and visible focus on the first 90 keyboard stops", "value": "90 / 90"},
+    {"status": "passed", "label": "Text contrast at 1440 and 390 px, disclosures open", "value": "AA"},
+    {"status": "passed", "label": "No horizontal overflow at 320 to 1440 px", "value": "5 widths"},
+    {"status": "passed", "label": "Print opens every disclosure and restores it", "value": "PDF"},
+    {"status": "unverified", "label": "Screen readers, Safari, Firefox, physical devices", "value": "not tested"}
+  ]
+}
