@@ -1,13 +1,20 @@
 {
+  "enabledPlugins": {
+    "marketing-skills@marketingskills": true,
+    "context-engineering@context-engineering-marketplace": true
+  },
   "extraKnownMarketplaces": {
     "marketingskills": {
       "source": {
         "source": "github",
         "repo": "coreyhaines31/marketingskills"
       }
+    },
+    "context-engineering-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering"
+      }
     }
-  },
-  "enabledPlugins": {
-    "marketing-skills@marketingskills": true
   }
 }
